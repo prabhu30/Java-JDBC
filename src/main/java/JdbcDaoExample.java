@@ -60,7 +60,7 @@ class MovieDao {
 
     String url = "jdbc:mysql://localhost:3306/prabhudb";
     String uname = "root";
-    String password = "Anuprakash123@";
+    String password = "";
     Connection con = null;
 
     public void connectToDB() throws SQLException {

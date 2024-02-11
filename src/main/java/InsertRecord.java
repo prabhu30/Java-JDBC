@@ -6,7 +6,7 @@ public class InsertRecord {
 
         String url = "jdbc:mysql://localhost:3306/prabhudb";
         String username = "root";
-        String password = "Anuprakash123@";
+        String password = "";
         String getMoviesQuery = "select * from movies";
 
         Connection con = DriverManager.getConnection(url, username, password);

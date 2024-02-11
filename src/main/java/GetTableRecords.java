@@ -17,7 +17,7 @@ public class GetTableRecords {
 
         String url = "jdbc:mysql://localhost:3306/prabhudb";
         String username = "root";
-        String password = "Anuprakash123@";
+        String password = "";
         String query = "select * from imdb";
 
         // Class.forName("com.mysql.jdbc.Driver");
